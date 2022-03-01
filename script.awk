@@ -12,10 +12,10 @@ Owner_Email = $2
 Judge_ID = $8
 Judge_Name = $9
  
-#printf ,Year \t Car_Make \t Car_Model \t Owner_Name \t Owner_Email \n" > "carsTable.csv"
-#printf "Judge_ID \t Judge_Name \n" > "judgesTable.csv"
-printf  $8, $9  > "judgesTable.csv"
-printf $7, total  > "Car_Score.csv"
+printf "Year, Car_Make , Car_Model , Owner_Name ,Owner_Email " > "carsTable.csv"
+printf "Judge_ID, Judge_Name" > "judgesTable.csv"
+#printf  $8, $9  > "judgesTable.csv"
+printf "Car_ID , Total"  > "Car_Score.csv"
 }
 {
 if(NR>1){
