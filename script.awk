@@ -1,6 +1,10 @@
 BEGIN {
 FPAT = "([^,]+)|(\"[^\"]+\")"
 FS = ","
+
+Judge_ID = $8
+Judge_Name = $9
+
 printf " Car_ID \t Year \t Car_Make \t Car_Model \t Owner_Name \t Owner_Email \n" > "carsTable.csv"
 printf "Judge_ID \t Judge_Name \n" > "judgesTable.csv"
 printf "Car_ID \t Car_scores  \n" > "Car_Score.csv"
