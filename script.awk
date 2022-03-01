@@ -2,20 +2,10 @@ BEGIN {
 FPAT = "([^,]+)|(\"[^\"]+\")"
 FS = ","
 OFS = FS
-Car_ID = $7
-Car_Scores = "Car_Scores"
-Year = $4
-Car_Make = $5
-Car_Model = $6
-Owner_Name = $3
-Owner_Email = $2
-Judge_ID = $8
-Judge_Name = $9
  
-printf "Year, Car_Make , Car_Model , Owner_Name ,Owner_Email " > "carsTable.csv"
-printf "Judge_ID, Judge_Name" > "judgesTable.csv"
-#printf  $8, $9  > "judgesTable.csv"
-printf "Car_ID , Total"  > "Car_Score.csv"
+print "Year Car_Make Car_Model Owner_Name Owner_Email" > "carsTable.csv"
+print "Judge_ID Judge_Name" > "judgesTable.csv"
+print "Car_ID Car_Score" > "Car_Score.csv"
 }
 {
 if(NR>1){
