@@ -1,11 +1,11 @@
 BEGIN {
 FPAT = "([^,]+)|(\"[^\"]+\")"
 FS = ","
-OFS = FS
+OFS = ","
  
-print "Year Car_Make Car_Model Owner_Name Owner_Email" > "carsTable.csv"
-print "Judge_ID Judge_Name" > "judgesTable.csv"
-print "Car_ID Car_Score" > "Car_Score.csv"
+print "Year, Car_Make, Car_Model, Owner_Name, Owner_Email" > "carsTable.csv"
+print "Judge_ID, Judge_Name" > "judgesTable.csv"
+print "Car_ID, Car_Score" > "Car_Score.csv"
 }
 {
 if(NR>1){
