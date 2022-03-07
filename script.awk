@@ -1,5 +1,4 @@
 BEGIN {
-FPAT = "([^,]+)|(\"[^\"]+\")"
 FS = ","
 OFS = ","
 print "Car_ID, Year, Car_Make, Car_Model, Owner_Name, Owner_Email" > "carsTable.csv"
