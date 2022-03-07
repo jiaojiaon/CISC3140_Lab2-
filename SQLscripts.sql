@@ -3,10 +3,10 @@ CREATE TABLE judges(
    ...> Judge_Name text);
 .import \judgesTable.csv judges;
 
-CREATE TABLE scores (
+CREATE TABLE Car_Score
    ...> Car_ID int primary key,
    ...> Car_Score int);
- .import \Car_Score.csv scores;
+ .import \Car_Score.csv Car_Score;
 
 CREATE TABLE Cars(
    ...> Car_ID int primary key,
