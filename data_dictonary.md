@@ -14,7 +14,7 @@
 |P/F|Field Name|Data Type|Field Size|Description|
 |-----------|---------|---------|------------|-----------|
 ||Judge_ID|TEXT||Judge information such as id|
-||Judge_Name|TEXt||Judge information such as name|
+||Judge_Name|TEXT||Judge information such as name|
 
 ### Car_Score
 |P/F|Field Name|Data Type|Field Size|Description|
@@ -43,7 +43,7 @@
 |P/F|Field Name|Data Type|Field Size|Description|
 |-----------|---------|---------|------------|-----------|
 ||Judge_ID|TEXT||Judge information such as id|
-||Judge_Name|TEXt||Judge information such as name|
+||Judge_Name|TEXT||Judge information such as name|
 ||NumberOfCar|INT||Counts the number of cars each judge has judged for the day|
 ||Start_Time|DATETIME||A field that shows the ‘start’ or the first timestamp of judging for the day|
 ||End_Time|DATETIME||A field that shows the ‘end’ or the final timestamp of judging for the day|
