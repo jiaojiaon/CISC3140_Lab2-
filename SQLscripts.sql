@@ -1,3 +1,8 @@
+--Part 1
+
+.headers on
+.mode csv
+
 CREATE TABLE judges(
    ...> Judge_ID text,
    ...> Judge_Name text);
@@ -16,6 +21,9 @@ CREATE TABLE Cars(
    ...> Owner_Name text,
    ...> Owner_Email text);
 .import \carsTable.csv Cars
+
+
+--Part 2
 
 CREATE TABLE Car_Total(
    ...> Car_ID int,
@@ -45,9 +53,12 @@ CREATE TABLE Rank(
 
 INSERT INTO Rank(Ranking, Car_ID,Year,Car_Make,Car_Model) SELECT rowid, Car_ID,Car_Year,Car_Make,Car_Model FROM Car_Rank;
 
+.header on
 .mode csv
 .output extract1.csv
 SELECT * FROM Rank;
+
+--Part 2.2
 
 
  CREATE TABLE RankWithTotal(
@@ -95,9 +106,14 @@ CREATE TABLE TopThree_Car(
 
 INSERT INTO TopThree_Car(Rank, Car_Make,Car_ID,Total_Score) SELECT * FROM RankTopOne UNION SELECT * FROM RankTopTwo UNION SELECT * FROM RankTopThree ORDER BY Car_Make, rank;
 
+.header on
 .mode csv
 .output extract2.csv
 SELECT * FROM TopThree_Car;
+
+--Part 3
+
+UPDATE judges_Table SET Timestamp = SUBSTR(Timestamp, 5, 4) || "-0" || SUBSTR(Timestamp, 1,1) || "-0" || SUBSTR(Timestamp, 3, 1) || " " || SUBSTR(Timestamp, 10, 2) || ":" || SUBSTR(Timestamp, 13, 2)
 
 CREATE TABLE newJudges_Table(
    ...> Judge_ID text,
@@ -110,6 +126,7 @@ CREATE TABLE newJudges_Table(
 
 INSERT INTO newJudges_Table(Judge_ID, Judge_Name, NumberOfCar,Start_Time,End_Time,Duration,Average_speed) SELECT Judge_ID, Judge_Name, COUNT(Timestamp), MIN(Timestamp), MAX(Timestamp), CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) ,CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT) / COUNT(Timestamp) FROM judges_Table GROUP BY Judge_ID;
 
+.header on
 .mode csv
 .output extract3.csv
 SELECT * FROM newJudges_Table;
