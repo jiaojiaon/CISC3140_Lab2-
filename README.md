@@ -38,6 +38,8 @@ o An ‘average’ speed score that is a calculated as duration divided by numbe
 
 5. Provide a data dictionary for your final set of tables. This is a description of your table (or database) schema. Please name this file [data_dictonary.md](data_dictonary.md) and use markdown formatting to format it. 
 
+6.Capture [text-based file(s)](history_log.txt) that contains a log of your terminal session (use the script command).
+
 
 # Installation
 
