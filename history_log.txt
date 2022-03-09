@@ -47,4 +47,425 @@ sqlite> select * from newJudges_Table;SELECT Judge_ID, Judge_Name, COUNT(Timesta
 [K
 [K[A[A[C[C[C[C[C[C[C[C
 ]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ s[Kvim data_dictonary.md
-[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;39r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[39;1H"data_dictonary.md" [New File][>c[27m[m[H[2J[2;1H[94m~                                                                                                          [3;1H~                                                                                                          [4;1H~                                                                                                          [5;1H~                                                                                                          [6;1H~                                                                                                          [7;1H~                                                                                                          [8;1H~                                                                                                          [9;1H~                                                                                                          [10;1H~                                                                                                          [11;1H~                                                                                                          [12;1H~                                                                                                          [13;1H~                                                                                                          [14;1H~                                                                                                          [15;1H~                                                                                                          [16;1H~                                                                                                          [17;1H~                                                                                                          [18;1H~                                                                                                          [19;1H~                                                                                                          [20;1H~                                                                                                          [21;1H~                                                                                                          [22;1H~                                                                                                          [23;1H~                                                                                                          [24;1H~                                                                                                          [25;1H~                                                                                                          [26;1H~                                                                                                          [27;1H~                                                                                                          [28;1H~                                                                                                          [29;1H~                                                                                                          [30;1H~                                                                                                          [31;1H~                                                                                                          [32;1H~                                                                                                          [33;1H~                                                                                                          [34;1H~                                                                                                          [35;1H~                                                                                                          [36;1H~                                                                                                          [37;1H~                                                                                                          [38;1H~                                                                                                          [m[39;90H0,0-1[9CAll"data_dictonary.md" [New File][59C     [9C   [1;1H[?12l[?25h[?25l[39;1H[97m[41mE348: No string under
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;39r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[39;1H"data_dictonary.md" [New File][>c[27m[m[H[2J[2;1H[94m~                                                                                                          [3;1H~                                                                                                          [4;1H~                                                                                                          [5;1H~                                                                                                          [6;1H~                                                                                                          [7;1H~                                                                                                          [8;1H~                                                                                                          [9;1H~                                                                                                          [10;1H~                                                                                                          [11;1H~                                                                                                          [12;1H~                                                                                                          [13;1H~                                                                                                          [14;1H~                                                                                                          [15;1H~                                                                                                          [16;1H~                                                                                                          [17;1H~                                                                                                          [18;1H~                                                                                                          [19;1H~                                                                                                          [20;1H~                                                                                                          [21;1H~                                                                                                          [22;1H~                                                                                                          [23;1H~                                                                                                          [24;1H~                                                                                                          [25;1H~                                                                                                          [26;1H~                                                                                                          [27;1H~                                                                                                          [28;1H~                                                                                                          [29;1H~                                                                                                          [30;1H~                                                                                                          [31;1H~                                                                                                          [32;1H~                                                                                                          [33;1H~                                                                                                          [34;1H~                                                                                                          [35;1H~                                                                                                          [36;1H~                                                                                                          [37;1H~                                                                                                          [38;1H~                                                                                                          [m[39;90H0,0-1[9CAll"data_dictonary.md" [New File][59C     [9C   [1;1H[?12l[?25h[?25l[39;1H[97m[41mE348: No string under cursor[m[39;29H[K[39;90H0,0-1[9CAll[1;1H[?12l[?25h[?25l[39;1H[1m-- INSERT --[m[39;13H[K[39;90H0,1[11CAll[1;1Hta Dictionary[2;1H[K[39;90H2[2;1H[?12l[?25h[?25l[94m~                                                                                                          [m[39;90H1,14[1;14H[?12l[?25h[?25l[1;13H[K[39;93H3[1;13H[?12l[?25h[?25l[1;12H[K[39;93H2[1;12H[?12l[?25h[?25l[1;11H[K[39;93H1[1;11H[?12l[?25h[?25l[1;10H[K[39;93H0[1;10H[?12l[?25h[?25l[1;9H[K[39;92H9 [1;9H[?12l[?25h[?25l[1;8H[K[39;92H8[1;8H[?12l[?25h[?25l[1;7H[K[39;92H7[1;7H[?12l[?25h[?25l[1;6H[K[39;92H6[1;6H[?12l[?25h[?25l[1;5H[K[39;92H5[1;5H[?12l[?25h[?25l[1;4H[K[39;92H4[1;4H[?12l[?25h[?25l[39;92H3[1;3H[?12l[?25h[?25l[1;2H[K[39;92H2[1;2H[?12l[?25h[?25l[1;1H[K[39;92H1[1;1H[?12l[?25h[?25l#[39;92H2[1;2H[?12l[?25h[?25lD[39;92H3[1;3H[?12l[?25h[?25lat[39;92H5[1;5H[?12l[?25h[?25la[39;92H6[1;6H[?12l[?25h[?25l[39;92H7[1;7H[?12l[?25h[?25lD[39;92H8[1;8H[?12l[?25h[?25li[39;92H9[1;9H[?12l[?25h[?25ls[39;92H10[1;10H[?12l[?25h[?25l[1;9H[K[39;92H9 [1;9H[?12l[?25h[?25lc[39;92H10[1;10H[?12l[?25h[?25lt[39;93H1[1;11H[?12l[?25h[?25lio[39;93H3[1;13H[?12l[?25h[?25ln[39;93H4[1;14H[?12l[?25h[?25la[39;93H5[1;15H[?12l[?25h[?25lr[39;93H6[1;16H[?12l[?25h[?25ly[39;93H7[1;17H[?12l[?25h[39;1H[K[1;16H[?25l[39;90H1,16[10CAll[1;16H[?12l[?25h[?25l[39;90H[K[39;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"data_dictonary.md" [New] 1L, 17C written
+[?1l>[?12l[?25h[?1049l]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ git status
+# On branch main
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    .import
+#	deleted:    .read
+#	deleted:    .schema
+#	modified:   SQLscripts.sql
+#	modified:   extract3.csv
+#	modified:   history_log.txt
+#	deleted:    scriptfile
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	data_dictonary.md
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ git add --all
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ git commit -m "update ex[K[K[K[K[K[K[K[K[Kupdate extract3.csv file[K[K[K[K[K"
+g[main 8655cdc] update extract3.csv
+ 8 files changed, 141 insertions(+), 627 deletions(-)
+ delete mode 100644 .import
+ delete mode 100644 .read
+ delete mode 100644 .schema
+ mode change 100644 => 100755 SQLscripts.sql
+ create mode 100644 data_dictonary.md
+ rewrite history_log.txt (94%)
+ delete mode 100644 scriptfile
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+To git@github.com:jiaojiaon/CISC3140_Lab2-.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'git@github.com:jiaojiaon/CISC3140_Lab2-.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ git pull
+remote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+From github.com:jiaojiaon/CISC3140_Lab2-
+   4215d52..211eb03  main       -> origin/main
+[?1049h[?1h=[1;39r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[39;1H".git/MERGE_MSG" 7L, 296C[1;1HMerge branch 'main' of github.com:jiaojiaon/CISC3140_Lab2- into main
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+[94m~                                                                                                          [9;1H~                                                                                                          [10;1H~                                                                                                          [11;1H~                                                                                                          [12;1H~                                                                                                          [13;1H~                                                                                                          [14;1H~                                                                                                          [15;1H~                                                                                                          [16;1H~                                                                                                          [17;1H~                                                                                                          [18;1H~                                                                                                          [19;1H~                                                                                                          [20;1H~                                                                                                          [21;1H~                                                                                                          [22;1H~                                                                                                          [23;1H~                                                                                                          [24;1H~                                                                                                          [25;1H~                                                                                                          [26;1H~                                                                                                          [27;1H~                                                                                                          [28;1H~                                                                                                          [29;1H~                                                                                                          [30;1H~                                                                                                          [31;1H~                                                                                                          [32;1H~                                                                                                          [33;1H~                                                                                                          [34;1H~                                                                                                          [35;1H~                                                                                                          [36;1H~                                                                                                          [37;1H~                                                                                                          [38;1H~                                                                                                          [1;1H[?12l[?25h[?25l[m[39;1H[K[39;1H:[?12l[?25hwq[?25l".git/MERGE_MSG" 7L, 296C written
+[?1l>[?12l[?25h[?1049lMerge made by the 'recursive' strategy.
+ README.md | 54 +++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 53 insertions(+), 1 deletion(-)
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 11, done.
+Delta compression using up to 8 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 2.25 KiB | 0 bytes/s, done.
+Total 7 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 2 local objects.[K
+To git@github.com:jiaojiaon/CISC3140_Lab2-.git
+   211eb03..2a427e0  main -> main
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$  [Kjkjk[K[K[K[Krm extract3.csv
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ rm extract3.csv[7Pgit pushllshcommit -m "update extract3.csv"add --all[K[3Pstatusvim data_dictonary.md[7Psqlite3 Lab2DB[1Prm scriptfilesqlite3 Lab2DB
+SQLite version 3.7.17 2013-05-20 00:56:22
+Enter ".help" for instructions
+Enter SQL statements terminated with a ";"
+[?1034hsqlite> .table
+Car_Rank         Rank             RankWithTotal    newJudges_Table
+Car_Score        RankTopOne       TopThree_Car   
+Car_Total        RankTopThree     judges         
+Cars             RankTopTwo       judges_Table   
+sqlite> S[KSELECT n[Knew[K[K[K* Frmo[K[Kom newJudges_Table.[K
+   ...> ;
+J01|Wayne|31|8/5/2018 13:47|8/5/2018 17:50||
+J02|Carl|10|8/5/2018 13:16|8/5/2018 17:14||
+J03|Carol|19|8/5/2018 13:26|8/5/2018 17:35||
+J04|Bob|36|8/5/2018 13:11|8/5/2018 17:51||
+J05|Adrian|10|8/5/2018 13:28|8/5/2018 17:31||
+J06|Aaron|32|8/5/2018 13:20|8/5/2018 17:43||
+J08|Danny|5|8/5/2018 15:26|8/5/2018 17:52||
+J09|Dan|24|8/5/2018 14:08|8/5/2018 17:48||
+Judge_ID| Judge_Name|1|Timestamp|Timestamp||
+sqlite> DELETE FROM RankWithTotal WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithT otal.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTot[1Pal.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTota[1Pl.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal[1P.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.[1PRank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.R[1Pank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Ra[1Pnk);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Ran[1Pk);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank[1P);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank)[1P;[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank);[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank); [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@ne WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank); [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank);;[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CJ WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C- WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.[1PRank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_ WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CT WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce WHERE EXISTS (SELECT * FROM RankTopTwo WHERE RankTopTwo.Rank == RankWithTotal.Rank);[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C\\[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K [K[K[K[K[K[K[KJudge_ID = [K= "[K'Judge+[K_ID';
+sqlite> DELETE FROM newJudges_Table WHERE Judge_ID == 'Judge_ID';[C[C[C[C[C[C[C[C;[KSELECT * From newJudges_Table[C[C[C[C[C[C[C[C.table[KSELECT * From newJudges_Table
+   ...> ;
+J01|Wayne|31|8/5/2018 13:47|8/5/2018 17:50||
+J02|Carl|10|8/5/2018 13:16|8/5/2018 17:14||
+J03|Carol|19|8/5/2018 13:26|8/5/2018 17:35||
+J04|Bob|36|8/5/2018 13:11|8/5/2018 17:51||
+J05|Adrian|10|8/5/2018 13:28|8/5/2018 17:31||
+J06|Aaron|32|8/5/2018 13:20|8/5/2018 17:43||
+J08|Danny|5|8/5/2018 15:26|8/5/2018 17:52||
+J09|Dan|24|8/5/2018 14:08|8/5/2018 17:48||
+sqlite> D[Kdrop tabel [K[K[Kle newJudges_Table;
+sqlite> CREATE TABLE newJudges_Table(
+   ...>  Judge_ID text,
+   ...>  Judge_Name text,
+   ...> NumberOfCar int,
+   ...> Start_Time datetime,
+   ...>  End_Time datetime,
+   ...> Duration int,
+   ...> Average_speed int);
+sqlite> NSERT INTO Judges_Day[K[K[K[K[K[K[K[K[K[Knre[K[K[KnewJudges_Table(Jude[Kge_ID, Judge_Name, NumberOfCar,Start_Time,End_Time,[C[C[C[C[C[C[C[CAverage_speed int);[Kd[C[C[C[C[C[C[C[CNSERT INTO newJudges_Table(Judge_ID, Judge_Name, NumberOfCar,Start_Time,End_Time,Duration. A[K[K[K,Average_s peed) SELECT Judge_ID,Judge_Name,Cou[K[KOUNT(Timestamp) AS NumberOfCar, Min[K[K[KMIN(Timestamp),[K AS Stare[K[K[Kart_time[K[K[K[KTime, MAX(Timesta mp) AS EN[Knd_Time, CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60 AS INT) AS  Duration_Mi nutes,[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C AS INT) AS  Duration_Minu[1Ptes,[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C AS INT) AS  Duration_Minut[1Pes,[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C AS INT) AS  Duration_Minute[1Ps,[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[1P,[1P,[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C, [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P,
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P,[1P,[1P,[1P,[1P,[1P,[1P,[1P,[1P,[1P,[1P,[1P,[1P,[1P, ,D,u,r,a,t,i,o,n,[CCAST(( (JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT) / COUNT(Timestamp) as Average[K[K[K[K[K[K[K[K[K[K[K AS Average_speed  From[K[K[KROM judges_Tabel[K[Kle Gr[KROUP BY JU[Kudge_ID;
+Error: near "NSERT": syntax error
+sqlite> NSERT INTO newJudges_Table(Judge_ID, Judge_Name, NumberOfCar,Start_Time,End_Time,Duration,Average_sppeed) SELECT Judge_ID,Judge_Name,COUNT(Timestamp) AS NumberOfCar, MIN(Timestamp) AS Start_Time, MAX(Timestammp) AS End_Time, CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) AS Duration,CAST((((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT) / COUNT(Timestamp) AS Average_speed FFROM judges_Table GROUP BY Judge_ID;[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[A[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[CSELECT Judge_ID,Judge_Name,COUNT(Timestamp) AS NumberOfCar, MIN(Timestamp) AS Start_Time, MAX(Times tamp) AS End_Time, CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) AS Duration,CAST (((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT) / COUNT(Timestamp) AS Average_spee d FROM judges_Table GROUP BY Judge_ID;
+J01|Wayne|31|8/5/2018 13:47|8/5/2018 17:50||
+J02|Carl|10|8/5/2018 13:16|8/5/2018 17:14||
+J03|Carol|19|8/5/2018 13:26|8/5/2018 17:35||
+J04|Bob|36|8/5/2018 13:11|8/5/2018 17:51||
+J05|Adrian|10|8/5/2018 13:28|8/5/2018 17:31||
+J06|Aaron|32|8/5/2018 13:20|8/5/2018 17:43||
+J08|Danny|5|8/5/2018 15:26|8/5/2018 17:52||
+J09|Dan|24|8/5/2018 14:08|8/5/2018 17:48||
+Judge_ID| Judge_Name|1|Timestamp|Timestamp||
+sqlite> UPDATE Judges SET Timestamp = SUBSTR(Timestamp, 5, 4) || "-0" || SUBSTR(Timestamp, 1,1) || "-0" ||  SUBSTR(Timestamp, 3, 1) || " " || SUBSTR(Timestamp, 10, 2) || ":" || SUBSTR(Timestamp, 13, 2); 
+Error: no such column: Timestamp
+sqlite> UPDATE Judges SET Timestamp = SUBSTR(Timestamp, 5, 4) || "-0" || SUBSTR(Timestamp, 1,1) || "-0" ||  SUBSTR(Timestamp, 3, 1) || " " || SUBSTR(Timestamp, 10, 2) || ":" || SUBSTR(Timestamp, 13, 2)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[CUPDATE judges_Table SET Timestamp = SUBSTR(Timestamp, 5, 4) || "-0" || SUBSTR(Timestamp, 1,1) || "- 0" || SUBSTR(Timestamp, 3, 1) || " " || SUBSTR(Timestamp, 10, 2) || ":" || SUBSTR(Timestamp, 13, 2);
+sqlite> SELECT Judge_ID,Judge_Name,COUNT(Timestamp) AS NumberOfCar, MIN(Timestamp) AS Start_Time, MAX(Times tamp) AS End_Time, CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) AS Duration,CAST (((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT) / COUNT(Timestamp) AS Average_spee d FROM judges_Table GROUP BY Judge_ID;
+J01|Wayne|31|2018-08-05 13:47|2018-08-05 17:50|4|7
+J02|Carl|10|2018-08-05 13:16|2018-08-05 17:14|3|23
+J03|Carol|19|2018-08-05 13:26|2018-08-05 17:35|4|13
+J04|Bob|36|2018-08-05 13:11|2018-08-05 17:51|4|7
+J05|Adrian|10|2018-08-05 13:28|2018-08-05 17:31|4|24
+J06|Aaron|32|2018-08-05 13:20|2018-08-05 17:43|4|8
+J08|Danny|5|2018-08-05 15:26|2018-08-05 17:52|2|29
+J09|Dan|24|2018-08-05 14:08|2018-08-05 17:48|3|9
+Judge_ID| Judge_Name|1|stam-0T-0m :|stam-0T-0m :||
+sqlite> SELECT Judge_ID,Judge_Name,COUNT(Timestamp),MIN(Timestamp),MAX(Timestamp),"CAST((JULIANDAY(MAX(Time stamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT)","CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestam p)))*24*60) AS INT)" FROM judges_Table GROUP BY Judge_ID;
+J01|Wayne|31|2018-08-05 13:47|2018-08-05 17:50|CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT)|CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT)
+J02|Carl|10|2018-08-05 13:16|2018-08-05 17:14|CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT)|CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT)
+J03|Carol|19|2018-08-05 13:26|2018-08-05 17:35|CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT)|CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT)
+J04|Bob|36|2018-08-05 13:11|2018-08-05 17:51|CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT)|CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT)
+J05|Adrian|10|2018-08-05 13:28|2018-08-05 17:31|CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT)|CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT)
+J06|Aaron|32|2018-08-05 13:20|2018-08-05 17:43|CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT)|CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT)
+J08|Danny|5|2018-08-05 15:26|2018-08-05 17:52|CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT)|CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT)
+J09|Dan|24|2018-08-05 14:08|2018-08-05 17:48|CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT)|CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT)
+Judge_ID| Judge_Name|1|stam-0T-0m :|stam-0T-0m :|CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT)|CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT)
+sqlite> SELECT Judge_ID, Judge_Name, COUNT(Timestamp), MIN(Timestamp), MAX(Timestamp), CAST((JULIANDAY(MAX( Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) as n , n*60/ COUNT(Timestamp) FROM judges_Table GROUP B Y Judge_ID;
+Error: no such column: n
+sqlite> SELECT Judge_ID, Judge_Name, COUNT(Timestamp), MIN(Timestamp), MAX(Timestamp), CAST((JULIANDAY(MAX( Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) ,CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Times tamp)))*24*60) AS INT) / COUNT(Timestamp) FROM judges_Table GROUP BY Judge_ID;
+J01|Wayne|31|2018-08-05 13:47|2018-08-05 17:50|4|7
+J02|Carl|10|2018-08-05 13:16|2018-08-05 17:14|3|23
+J03|Carol|19|2018-08-05 13:26|2018-08-05 17:35|4|13
+J04|Bob|36|2018-08-05 13:11|2018-08-05 17:51|4|7
+J05|Adrian|10|2018-08-05 13:28|2018-08-05 17:31|4|24
+J06|Aaron|32|2018-08-05 13:20|2018-08-05 17:43|4|8
+J08|Danny|5|2018-08-05 15:26|2018-08-05 17:52|2|29
+J09|Dan|24|2018-08-05 14:08|2018-08-05 17:48|3|9
+Judge_ID| Judge_Name|1|stam-0T-0m :|stam-0T-0m :||
+sqlite> SELECT Judge_ID, Judge_Name, COUNT(Timestamp), MIN(Timestamp), MAX(Timestamp), CAST((JULIANDAY(MAX(TTimestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) ,CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timesttamp)))*24*60) AS INT) / COUNT(Timestamp) FROM judges_Table GROUP BY Judge_ID;[Aas n , n*60/ COUNT(Timestamp) FROM judges_Table GROUP BY Judge_ID;[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[CJudge_Name,COUNT(Timestamp),MIN(Timestamp),MAX(Timestamp),"CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT)","CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT)" FROM judges_Table GROUP BY Judge_ID;[A[A AS NumberOfCar, MIN(Timestamp) AS Start_Time, MAX(Timestamp) AS End_Time, CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) AS Duration,CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT) / COUNT(Timestamp) AS Average_speedd FROM judges_Table GROUP BY Judge_ID;[A[A[A[C[C[C[C[C[C[C[CUPDATE judges_Table SET Timestamp = SUBSTR(Timestamp, 5, 4) || "-0" || SUBSTR(Timestamp, 1,1) || "-0[7P" || SUBSTR(Timestamp, 3, 1) || " " || SUBSTR(Timestamp, 10, 2) || ":" || SUBSTR(Timestamp, 13, 2);
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CJudges SET Timestamp = SUBSTR(Timestamp, 5, 4) || "-0" || SUBSTR(Timestamp, 1,1) || "-0" || S[5PUBSTR(Timestamp, 3, 1) || " " || SUBSTR(Timestamp, 10, 2) || ":" || SUBSTR(Timestamp, 13, 2); [A[C[C[C[C[C[C[C[CSELECT Judge_ID,Judge_Name,COUNT(Timestamp) AS NumberOfCar, MIN(Timestamp) AS Start_Time, MAX(Timestamp) AS End_Time, CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) AS Duration,CAST((((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT) / COUNT(Timestamp) AS Average_speedd FROM judges_Table GROUP BY Judge_ID;[A[A[A[C[C[C[C[C[C[C[CNSERT INTO newJudges_Table(Judge_ID, Judge_Name, NumberOfCar,Start_Time,End_Time,Duration,Average_speed) SELECT Judge_ID,Judge_Name,COUNT(Timestamp) AS NumberOfCar, MIN(Timestamp) AS Start_Time, MAX(Timestamp) AS End_Time, CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) AS Duration,CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT) / COUNT(Timestamp) AS Average_speed FFROM judges_Table GROUP BY Judge_ID;[A[A[A[A[C[C[C[C[C[C[C[CAverage_speed int);d[K
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7PDuration int,[C[C[C[C[C[C[C[C End_Time datetime,[C[C[C[C[C[C[C[C[1@Start[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PNumberOfCar int,[C[C[C[C[C[C[C[C Judge_Name text,[2PID[C[C[C[C[C[C[C[C[C[C[C[C[C[CCREATE TABLE newJudges_Table([C[C[C[C[C[C[C[C[2Pdrop table newJudges_Table;[C[C[C[C[C[C[C[C;[KSELECT * From newJudges_Table[C[C[C[C[C[C[C[CDELETE FROM newJudges_Table WHERE Judge_ID == 'Judge_ID';[C[C[C[C[C[C[C[C;[KSELECT * From newJudges_Table[C[C[C[C[C[C[C[C.table[Kselect * from newJudges_Table;SELECT Judge_ID, Judge_Name, COUNT(Timestamp), MIN(Timestamp), MAX(Timmestamp), CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT), CAST(((JULIANDAY(MAX(Timeestamp)) - JULIANDAY(MIN(Timestamp)))*24) AS INT)/COUNT(Timestamp) FROM judges_Table GROUP BY Judge_ID;[A[A[C[C[C[C[C[C[C[C.table[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[CSELECT * From newJudges_Table[C[C[C[C[C[C[C[C;[KDELETE FROM newJudges_Table WHERE Judge_ID == 'Judge_ID';[C[C[C[C[C[C[C[C[28PSELECT * From newJudges_Table[C[C[C[C[C[C[C[C;[Kdrop table newJudges_Table;[C[C[C[C[C[C[C[CCREATE TABLE newJudges_Table([C[C[C[C[C[C[C[C[14P Judge_ID text,[2@Name[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PNumberOfCar int,[C[C[C[C[C[C[C[CStart_Time datetime,[C[C[C[C[C[C[C[C[1P End[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6PDuration int,[C[C[C[C[C[C[C[CAverage_speed int);d[C[C[C[C[C[C[C[CNSERT INTO newJudges_Table(Judge_ID, Judge_Name, NumberOfCar,Start_Time,End_Time,Duration,Average_sppeed) SELECT Judge_ID,Judge_Name,COUNT(Timestamp) AS NumberOfCar, MIN(Timestamp) AS Start_Time, MAX(Timestammp) AS End_Time, CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) AS Duration,CAST((((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT) / COUNT(Timestamp) AS Average_speed FFROM judges_Table GROUP BY Judge_ID;[A[A[A[A[C[C[C[C[C[C[C[CSELECT Judge_ID,Judge_Name,COUNT(Timestamp) AS NumberOfCar, MIN(Timestamp) AS Start_Time, MAX(Timestamp) AS End_Time, CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) AS Duration,CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT) / COUNT(Timestamp) AS Average_speed[69P FROM judges_Table GROUP BY Judge_ID;
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[A[C[C[C[C[C[C[C[CUPDATE Judges SET Timestamp = SUBSTR(Timestamp, 5, 4) || "-0" || SUBSTR(Timestamp, 1,1) || "-0" || S[12PUBSTR(Timestamp, 3, 1) || " " || SUBSTR(Timestamp, 10, 2) || ":" || SUBSTR(Timestamp, 13, 2); 
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjudges_Table SET Timestamp = SUBSTR(Timestamp, 5, 4) || "-0" || SUBSTR(Timestamp, 1,1) || "-0" || SUBSTR(Timestamp, 3, 1) || " " || SUBSTR(Timestamp, 10, 2) || ":" || SUBSTR(Timestamp, 13, 2);[A[C[C[C[C[C[C[C[CSELECT Judge_ID,Judge_Name,COUNT(Timestamp) AS NumberOfCar, MIN(Timestamp) AS Start_Time, MAX(Timestamp) AS End_Time, CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) AS Duration,CAST((((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT) / COUNT(Timestamp) AS Average_speedd FROM judges_Table GROUP BY Judge_ID;[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C,MIN(Timestamp),MAX(Timestamp),"CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT)","CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp[50P)))*24*60) AS INT)" FROM judges_Table GROUP BY Judge_ID;
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C Judge_Name, COUNT(Timestamp), MIN(Timestamp), MAX(Timestamp), CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) as n , n*60/ COUNT(Timestamp) FROM judges_Table GROUP BY Judge_ID;[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C,CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT) / COUNT(Timestamp) FROM judges_Table GROUP BY Judge_ID;[A[A[C[C[C[C[C[C[C[C[K
+[K
+[K[A[A[C[C[C[C[C[C[C[CINSERT INTO newJudges_Table(Judge_ID, Judge_Name, NumberOfCar,Start_Time,End_Time,Duration,Average_ speed)SELECT Judge_ID, Judge_Name, COUNT(Timestamp), MIN(Timestamp), MAX(Timestamp), CAST((JULIANDAY(MAX(Ti mestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) ,CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timesta mp)))*24*60) AS INT) / COUNT(Timestamp) FROM judges_Table GROUP BY Judge_ID;
+sqlite> INSERT INTO newJudges_Table(Judge_ID, Judge_Name, NumberOfCar,Start_Time,End_Time,Duration,Average_sspeed)SELECT Judge_ID, Judge_Name, COUNT(Timestamp), MIN(Timestamp), MAX(Timestamp), CAST((JULIANDAY(MAX(Timmestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) ,CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestammp)))*24*60) AS INT) / COUNT(Timestamp) FROM judges_Table GROUP BY Judge_ID;[A[A[A[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[CS[Kslect[K[K[K[Kelect * from newJuddge[K[K[Kge_Table
+   ...> ;
+Error: no such table: newJudge_Table
+sqlite> ;select * from newJudge_Table[Cs_Table
+   ...> ;
+J01|Wayne|31|2018-08-05 13:47|2018-08-05 17:50|4|7
+J02|Carl|10|2018-08-05 13:16|2018-08-05 17:14|3|23
+J03|Carol|19|2018-08-05 13:26|2018-08-05 17:35|4|13
+J04|Bob|36|2018-08-05 13:11|2018-08-05 17:51|4|7
+J05|Adrian|10|2018-08-05 13:28|2018-08-05 17:31|4|24
+J06|Aaron|32|2018-08-05 13:20|2018-08-05 17:43|4|8
+J08|Danny|5|2018-08-05 15:26|2018-08-05 17:52|2|29
+J09|Dan|24|2018-08-05 14:08|2018-08-05 17:48|3|9
+Judge_ID| Judge_Name|1|stam-0T-0m :|stam-0T-0m :||
+sqlite> .header on
+sqlite> .header on[C[C[C[C[C[C[C[C;[Kselect * from newJudges_Table[C[C[C[C[C[C[C[C;[Kselect * from newJudges_Table;
+Judge_ID|Judge_Name|NumberOfCar|Start_Time|End_Time|Duration|Average_speed
+J01|Wayne|31|2018-08-05 13:47|2018-08-05 17:50|4|7
+J02|Carl|10|2018-08-05 13:16|2018-08-05 17:14|3|23
+J03|Carol|19|2018-08-05 13:26|2018-08-05 17:35|4|13
+J04|Bob|36|2018-08-05 13:11|2018-08-05 17:51|4|7
+J05|Adrian|10|2018-08-05 13:28|2018-08-05 17:31|4|24
+J06|Aaron|32|2018-08-05 13:20|2018-08-05 17:43|4|8
+J08|Danny|5|2018-08-05 15:26|2018-08-05 17:52|2|29
+J09|Dan|24|2018-08-05 14:08|2018-08-05 17:48|3|9
+Judge_ID| Judge_Name|1|stam-0T-0m :|stam-0T-0m :||
+sqlite> .mode v[Kcsv
+sqlite> m[K.output extract3.csv
+sqlite> .output extract3.csv[C[C[C[C[C[C[C[C[C[11Pmode csvselect * from newJudges_Table;
+sqlite> select * from newJudges_Table;[C[C[C[C[C[C[C[C[K
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ git status
+# On branch main
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   Lab2DB
+#	modified:   extract3.csv
+#	modified:   history_log.txt
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ vm[Kim SQLscript.sql
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;39r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[39;1H"SQLscript.sql" [New File][>c[27m[m[H[2J[2;1H[94m~                                                                                                          [3;1H~                                                                                                          [4;1H~                                                                                                          [5;1H~                                                                                                          [6;1H~                                                                                                          [7;1H~                                                                                                          [8;1H~                                                                                                          [9;1H~                                                                                                          [10;1H~                                                                                                          [11;1H~                                                                                                          [12;1H~                                                                                                          [13;1H~                                                                                                          [14;1H~                                                                                                          [15;1H~                                                                                                          [16;1H~                                                                                                          [17;1H~                                                                                                          [18;1H~                                                                                                          [19;1H~                                                                                                          [20;1H~                                                                                                          [21;1H~                                                                                                          [22;1H~                                                                                                          [23;1H~                                                                                                          [24;1H~                                                                                                          [25;1H~                                                                                                          [26;1H~                                                                                                          [27;1H~                                                                                                          [28;1H~                                                                                                          [29;1H~                                                                                                          [30;1H~                                                                                                          [31;1H~                                                                                                          [32;1H~                                                                                                          [33;1H~                                                                                                          [34;1H~                                                                                                          [35;1H~                                                                                                          [36;1H~                                                                                                          [37;1H~                                                                                                          [38;1H~                                                                                                          [m[39;90H0,0-1[9CAll"SQLscript.sql" [New File][63C     [9C   [1;1H[?12l[?25h[?25l[39;1H[K[39;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"SQLscript.sql" [New] 0L, 0C written
+[?1l>[?12l[?25h[?1049l]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ rem[K[K[Kvim SQLscript.sql[1P SQLscript.sql[1P SQLscript.sql[1P SQLscript.sqlr SQLscript.sqlm SQLscript.sql
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ v[Krm SQLscript.sqlst.sql[1Pt.sql[Cs.sql[1P SQLscripts.sql[1P SQLscripts.sqlb SQLscripts.sql[1P SQLscripts.sqlv SQLscripts.sqli SQLscripts.sqlm SQLscripts.sql
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;39r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[39;1H"SQLscripts.sql" 104L, 3024C[>c[27m[m[H[2J[1;1H[38;5;130mCREATE[m [35mTABLE[m judges(
+   ...> Judge_ID text,
+   ...> Judge_Name text);
+.import \judgesTable.csv judges;
+
+[38;5;130mCREATE[m [35mTABLE[m Car_Score
+   ...> Car_ID int primary key,
+   ...> Car_Score int);
+ .import \Car_Score.csv Car_Score;
+
+[38;5;130mCREATE[m [35mTABLE[m Cars(
+   ...> Car_ID int primary key,
+   ...> Car_Year int,
+   ...> Car_Make text,
+   ...> Car_Model text,
+   ...> Owner_Name text,
+   ...> Owner_Email text);
+.import \carsTable.csv Cars
+
+[38;5;130mCREATE[m [35mTABLE[m Car_Total(
+   ...> Car_ID int,
+   ...> Car_Year int,
+   ...> Car_Make text,
+   ...> Car_Model text,
+   ...> Car_Total int);
+
+[38;5;130mINSERT[m [35mINTO[m Car_Total [38;5;130mSELECT[m Cars.Car_ID, Cars.Car_Year, Cars.Car_Make,Cars.Car_Model, Car_Score.Car_Score  [28;1H[35mFROM[m Cars, Car_Score [35mWHERE[m Cars.Car_ID = Car_Score.Car_ID;
+
+[38;5;130mCREATE[m [35mTABLE[m Car_Rank(
+   ...> Car_ID int,
+   ...> Car_Year int,
+   ...> Car_Make text,
+   ...> Car_Model text,
+   ...> Car_Total int,
+   ...> Car_Rank int);
+
+[38;5;130mINSERT[m [35mINTO[m Car_Rank(Car_ID,Car_Year,Car_Make, Car_Model,Car_Total) [38;5;130mSELECT[m Car_ID,Car_Year,Car_Make,Car_Mod[38;1H[94m@                                                                                                          [m[39;90H74,4[10CTop"SQLscripts.sql" 104L, 3024C[61C    [10C   [19;4H[27m[m[H[2J[1;1H[38;5;130mINSERT[m [35mINTO[m RankWithTotal(Rank, Car_Make,Car_ID,Total_Score) [38;5;130mSELECT[m Rank.Ranking,Rank.Car_Make,Rank.Car_ID,,[2;1HCar_Rank.Car_Total [35mFROM[m Rank,Car_Rank [35mWHERE[m Rank.Car_ID = Car_Rank.Car_ID;
+
+[38;5;130mCREATE[m [35mTABLE[m RankTopOne(
+   ...> Rank int,
+   ...> Car_Make text,
+   ...> Car_ID int,
+   ...> Total_Score int);
+
+[38;5;130mINSERT[m [35mINTO[m RankTopOne(Rank, Car_Make,Car_ID,Total_Score)[38;5;130mSELECT[m Rank, Car_Make,Car_ID,Total_Score [35mFROM[m Rankk[11;1HWithTotal [35mGROUP[m [35mBY[m Car_Make;
+
+[38;5;130mDELETE[m [35mFROM[m RankWithTotal [35mWHERE[m [38;5;130mEXISTS[m ([38;5;130mSELECT[m * [35mFROM[m RankTopOne [35mWHERE[m RankTopOne.Rank == RankWithTotal.Rann[14;1Hk);
+
+[38;5;130mCREATE[m [35mTABLE[m RankTopTwo(
+   ...> Rank int,
+   ...> Car_Make text,
+   ...> Car_ID int,
+   ...> Total_Score int);
+
+[38;5;130mINSERT[m [35mINTO[m RankTopTwo(Rank, Car_Make,Car_ID,Total_Score)[38;5;130mSELECT[m MIN(Rank), Car_Make,Car_ID,Total_Score [35mFROMM[m[23;1H RankWithTotal [35mGROUP[m [35mBY[m Car_Make [35mORDER[m [35mBY[m Rank;
+
+[38;5;130mDELETE[m [35mFROM[m RankWithTotal [35mWHERE[m [38;5;130mEXISTS[m ([38;5;130mSELECT[m * [35mFROM[m RankTopTwo [35mWHERE[m RankTopTwo.Rank == RankWithTotal.Rann[26;1Hk);
+
+[38;5;130mCREATE[m [35mTABLE[m RankTopThree(
+   ...> Rank int,
+   ...> Car_Make text,
+   ...> Car_ID int,
+   ...> Total_Score int);
+
+[38;5;130mINSERT[m [35mINTO[m RankTopThree(Rank, Car_Make,Car_ID,Total_Score)[38;5;130mSELECT[m MIN(Rank), Car_Make,Car_ID,Total_Score [35mFRR[35;1HOM[m RankWithTotal [35mGROUP[m [35mBY[m Car_Make [35mORDER[m [35mBY[m Rank;
+
+
+[38;5;130mCREATE[m [35mTABLE[m TopThree_Car([39;90H74,4[10C80%[19;4H[?12l[?25h[?25l[39;91H5[20;4H[?12l[?25h[?25l[39;91H6,0-1[21;1H[?12l[?25h[?25l[39;91H7,4  [22;4H[?12l[?25h[?25l[39;91H8,1[24;1H[?12l[?25h[?25l[39;91H9,4[25;4H[?12l[?25h[?25l[39;90H80,0-1[27;1H[?12l[?25h[?25l[39;91H1,4  [28;4H[?12l[?25h[?25l[39;91H2[29;4H[?12l[?25h[?25l[39;91H3[30;4H[?12l[?25h[?25l[39;91H4[31;4H[?12l[?25h[?25l[39;91H5[32;4H[?12l[?25h[?25l[39;91H6,0-1[33;1H[?12l[?25h[?25l[39;91H7,4  [34;4H[?12l[?25h[?25l[39;91H8,0-1[36;1H[?12l[?25h[?25l[39;91H9[37;1H[?12l[?25h[?25l[39;90H90,4  [38;4H[?12l[?25h[?25l[1;38r[1;1H[2M[1;39r[37;4H...> Rank int,
+   ...> Car_Make text,[39;90H[K[39;90H91,4[10C83%[37;4H[?12l[?25h[?25l[39;91H2[38;4H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;4H...> Car_ID int,[39;90H[K[39;90H93,4[10C84%[38;4H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;4H...> Total_Score int);[39;90H[K[39;90H94,4[10C85%[38;4H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[39;90H[K[39;90H95,0-1[8C87%[38;1H[?12l[?25h[?25l[1;38r[1;1H[2M[1;39r[37;1H[38;5;130mINSERT[m [35mINTO[m TopThree_Car(Rank, Car_Make,Car_ID,Total_Score) [38;5;130mSELECT[m * [35mFROM[m RankTopOne [38;5;130mUNION[m [38;5;130mSELECT[m * [35mFROM[m Raa[38;1HnkTopTwo [38;5;130mUNION[m [38;5;130mSELECT[m * [35mFROM[m RankTopThree [35mORDER[m [35mBY[m Car_Make, rank;[39;90H[K[39;90H96,4[10C88%[37;4H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[39;90H[K[39;90H97,0-1[8C90%[38;1H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;1H.[35mmode[m csv[39;90H[K[39;90H98,4[10C91%[38;4H[?12l[?25h[?25l[1;38r[1;1H[2M[1;39r[37;1H.output extract2.csv
+[38;5;130mSELECT[m * [35mFROM[m TopThree_Car;[39;90H[K[39;90H99,4[10C94%[37;4H[?12l[?25h[?25l[39;90H100,4[38;4H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[39;90H[K[39;90H101,0-1[7C95%[38;1H[?12l[?25h[?25l[1;38r[1;1H[2M[1;39r[39;90H[K[39;90H102,0-1[7C98%[37;1H[?12l[?25h[?25l[39;92H3[38;1H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[39;90H[K[39;90H104,0-1[7CBot[38;1H[?12l[?25h[?25l[39;92H3[37;1H[?12l[?25h[?25l[39;92H2[36;1H[?12l[?25h[?25l[39;92H3[37;1H[?12l[?25h[?25l[39;92H2[36;1H[?12l[?25h[?25l
+
+
+[1m-- INSERT --[m[39;90H[K[39;90H102,1[9CBot[1;38r[1;1H[5M[1;39r[31;1HREATE [35mTABLE[m newJudges_Table(
+   ...> Judge_ID text,
+   ...> Judge_Name text,
+   ...> NumberOfCar int,
+   ...> Start_Time datetime,
+   ...> End_Time datetime,
+   ...> Duration int,
+   ...> Average_speed int);[39;90H[K[39;90H109,28[8C97%[38;28H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[39;90H[K[39;90H110,1[9C98%[38;1H[?12l[?25h[?25l[1;38r[1;1H[2M[1;39r[38;1H[94m~                                                                                                          [m[39;90H[K[39;90H111,1[9CBot[37;1H[?12l[?25h[?25l[38;5;130mINSERT[m [35mINTO[m newJudges_Table(Judge_ID, Judge_Name, NumberOfCar,Start_Time,End_Time,Duration,Average_speed)[39;95H07[37;107H[?12l[?25h[?25l[38;5;130mSS[38;1HELECT[m Judge_ID, Judge_Name, COUNT(Timestamp), MIN(Timestamp), MAX(Timestamp), CAST((JULIANDAY(MAX(Timestamp[37;1H[94m@                                                                                                          [38;1H@                                                                                                          [1;38r[m[1;1H[3M[1;39r[34;1H[38;5;130mINSERT[m [35mINTO[m newJudges_Table(Judge_ID, Judge_Name, NumberOfCar,Start_Time,End_Time,Duration,Average_speed) [38;5;130mSS[35;1HELECT[m Judge_ID, Judge_Name, COUNT(Timestamp), MIN(Timestamp), MAX(Timestamp), CAST((JULIANDAY(MAX(Timestampp[36;1H)) - JULIANDAY(MIN(Timestamp)))*[31m24[m [35mAS[m INT) ,CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*[31m22[37;1H4[m*[31m60[m) [35mAS[m INT) / COUNT(Timestamp) [35mFROM[m judges_Table [35mGROUP[m [35mBY[m Judge_ID;
+[94m~                                                                                                          [m[39;90H[K[39;90H111,391[7CBot[37;70H[?12l[?25h[?25l[38;1H[K[39;92H2,1  [38;1H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[39;90H[K[39;90H113,1[9CBot[38;1H[?12l[?25h[?25l.[39;94H2[38;2H[?12l[?25h[?25lm[39;94H3[38;3H[?12l[?25h[?25lo[39;94H4[38;4H[?12l[?25h[?25ld[39;94H5[38;5H[?12l[?25h[?25l.[35mmode[m[39;94H6[38;6H[?12l[?25h[?25l[39;94H7[38;7H[?12l[?25h[?25lc[39;94H8[38;8H[?12l[?25h[?25ls[39;94H9[38;9H[?12l[?25h[?25lv[39;94H10[38;10H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[39;90H[K[39;90H114,1[9CBot[38;1H[?12l[?25h[?25l.[39;94H2[38;2H[?12l[?25h[?25lo[39;94H3[38;3H[?12l[?25h[?25lu[39;94H4[38;4H[?12l[?25h[?25l[38;5;130mout[m[39;94H5[38;5H[?12l[?25h[?25l.outp[39;94H6[38;6H[?12l[?25h[?25lu[39;94H7[38;7H[?12l[?25h[?25lt[39;94H8[38;8H[?12l[?25h[?25l[39;94H9[38;9H[?12l[?25h[?25le[39;94H10[38;10H[?12l[?25h[?25lx[39;95H1[38;11H[?12l[?25h[?25lt[39;95H2[38;12H[?12l[?25h[?25lr[39;95H3[38;13H[?12l[?25h[?25la[39;95H4[38;14H[?12l[?25h[?25lc[39;95H5[38;15H[?12l[?25h[?25lt[39;95H6[38;16H[?12l[?25h[?25l3[39;95H7[38;17H[?12l[?25h[?25l.[39;95H8[38;18H[?12l[?25h[?25lc[39;95H9[38;19H[?12l[?25h[?25ls[39;94H20[38;20H[?12l[?25h[?25lv[39;95H1[38;21H[?12l[?25h[?25l[39;92H3,10[37;10H[?12l[?25h[?25l[39;92H2,1 [36;1H[?12l[?25h[?25l[39;92H1,21[32;21H[?12l[?25h[?25l[39;92H0,1 [31;1H[?12l[?25h[?25l[39;91H09,21[30;21H[?12l[?25h[?25l[39;92H8[29;21H[?12l[?25h[?25l[39;92H7[28;21H[?12l[?25h[?25l[39;92H6[27;21H[?12l[?25h[?25l[39;92H5[26;21H[?12l[?25h[?25l[39;92H4[25;21H[?12l[?25h[?25l[39;92H3[24;21H[?12l[?25h[?25l[39;92H2[23;21H[?12l[?25h[?25l[39;92H1,1 [22;1H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H101,1[9CBot[22;1H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H101,1[9CBot[22;1H[?12l[?25h[?25l[39;92H2,21[23;21H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,20[8CBot[23;20H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,19[8CBot[23;19H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,18[8CBot[23;18H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,17[8CBot[23;17H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,16[8CBot[23;16H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,15[8CBot[23;15H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,14[8CBot[23;14H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,13[8CBot[23;13H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,12[8CBot[23;12H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,11[8CBot[23;11H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,10[8CBot[23;10H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,9[9CBot[23;9H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,8[9CBot[23;8H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,7[9CBot[23;7H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,6[9CBot[23;6H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,5[9CBot[23;5H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,4[9CBot[23;4H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,3[9CBot[23;3H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,2[9CBot[23;2H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,1[9CBot[23;1H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H102,1[9CBot[23;1H[?12l[?25h[?25l[38;5;130mCREATE[m [35mTABLE[m newJudges_Table([39;94H2[23;2H[?12l[?25h[?25l[39;92H3[24;2H[?12l[?25h[?25l[39;92H4[25;2H[?12l[?25h[?25l[39;92H5[26;2H[?12l[?25h[?25l[39;92H6[27;2H[?12l[?25h[?25l[39;92H7[28;2H[?12l[?25h[?25l[39;92H8[29;2H[?12l[?25h[?25l[39;92H9[30;2H[?12l[?25h[?25l[39;91H10,1[31;1H[?12l[?25h[?25l[39;92H1,2[32;2H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillOutOfColumns()[1m-- INSERT --[m[39;13H[K[39;90H111,1[9CBot[32;1H[?12l[?25h[?25l[39;92H0[31;1H[?12l[?25h[?25l[39;91H09[30;1H[?12l[?25h[?25l[39;92H8[29;1H[?12l[?25h[?25l[39;92H7[28;1H[?12l[?25h[?25l[39;92H6[27;1H[?12l[?25h[?25l[39;92H5[26;1H[?12l[?25h[?25l[39;92H4[25;1H[?12l[?25h[?25l[39;92H3[24;1H[?12l[?25h[?25l[39;92H2[23;1H[?12l[?25h[?25l[39;92H1[22;1H[?12l[?25h[?25l[39;92H0[21;1H[?12l[?25h[?25l[39;92H1[22;1H[?12l[?25h[?25l[39;92H2[23;1H[?12l[?25h[?25l[39;92H3[24;1H[?12l[?25h[?25l[39;92H4[25;1H[?12l[?25h[?25l[39;92H5[26;1H[?12l[?25h[?25l[39;92H7[28;1H[?12l[?25h[?25l[39;92H8[29;1H[?12l[?25h[?25l[39;92H9[30;1H[?12l[?25h[?25l[39;91H10[31;1H[?12l[?25h[?25l[39;92H1[32;1H[?12l[?25h[?25l[39;92H2[36;1H[?12l[?25h[?25l[39;92H3[37;1H[?12l[?25h[?25l[39;92H4[38;1H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[37;1H[K[38;1H.output extract3.csv[39;90H[K[39;90H115,1[9CBot[38;1H[?12l[?25h[?25l[37;1H.output extract3.csv
+[94m~                                                                                                          [m[39;92H4[37;1H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,2[9CBot[37;2H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,3[9CBot[37;3H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,4[9CBot[37;4H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,5[9CBot[37;5H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,6[9CBot[37;6H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,7[9CBot[37;7H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,8[9CBot[37;8H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,9[9CBot[37;9H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,10[8CBot[37;10H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,11[8CBot[37;11H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,12[8CBot[37;12H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,13[8CBot[37;13H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,14[8CBot[37;14H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,15[8CBot[37;15H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,16[8CBot[37;16H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,17[8CBot[37;17H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,18[8CBot[37;18H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,19[8CBot[37;19H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,20[8CBot[37;20H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,21[8CBot[37;21H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,21[8CBot[37;21H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H114,21[8CBot[37;21H[?12l[?25h[?25l[38;1H[K[39;92H5,1 [38;1H[?12l[?25h[?25l.[39;94H2[38;2H[?12l[?25h[?25ls[39;94H3[38;3H[?12l[?25h[?25l[38;2H[K[39;94H2[38;2H[?12l[?25h[?25l[38;1H[K[39;94H1[38;1H[?12l[?25h[?25lS[39;94H2[38;2H[?12l[?25h[?25lE[39;94H3[38;3H[?12l[?25h[?25lL[39;94H4[38;4H[?12l[?25h[?25lE[39;94H5[38;5H[?12l[?25h[?25lC[39;94H6[38;6H[?12l[?25h[?25lR[39;94H7[38;7H[?12l[?25h[?25l[38;6H[K[39;94H6[38;6H[?12l[?25h[?25l[38;5;130mSELECT[m[39;94H7[38;7H[?12l[?25h[?25l[39;94H8[38;8H[?12l[?25h[?25l*[39;94H9[38;9H[?12l[?25h[?25l[39;94H10[38;10H[?12l[?25h[?25lF[39;95H1[38;11H[?12l[?25h[?25lRO[39;95H3[38;13H[?12l[?25h[?25l[35mFROM[m[39;95H4[38;14H[?12l[?25h[?25l[39;95H5[38;15H[?12l[?25h[?25ln[39;95H6[38;16H[?12l[?25h[?25le[39;95H7[38;17H[?12l[?25h[?25lw[39;95H8[38;18H[?12l[?25h[?25lJ[39;95H9[38;19H[?12l[?25h[?25lu[39;94H20[38;20H[?12l[?25h[?25ld[39;95H1[38;21H[?12l[?25h[?25lg[39;95H2[38;22H[?12l[?25h[?25le[39;95H3[38;23H[?12l[?25h[?25ls[39;95H4[38;24H[?12l[?25h[?25l_[39;95H5[38;25H[?12l[?25h[?25lT[39;95H6[38;26H[?12l[?25h[?25la[39;95H7[38;27H[?12l[?25h[?25lb[39;95H8[38;28H[?12l[?25h[?25ll[39;95H9[38;29H[?12l[?25h[?25le[39;94H30[38;30H[?12l[?25h[?25l;[39;95H1[38;31H[?12l[?25h[?25l[39;92H4,2[37;21H[?12l[?25h[?25l[39;92H2,1 [35;1H[?12l[?25h[?25l[39;91H07,27[27;27H[?12l[?25h[?25l[1;38r[1;1H[3L[1;39r[2;1H[38;5;130mCREATE[m [35mTABLE[m RankTopThree(
+   ...> Rank int,[39;90H[K[39;90H80,1[10C96%[1;1HO[?12l[?25h [?25l[1;38r[1;1H[3L[1;39r[2;1H[38;5;130mDELETE[m [35mFROM[m RankWithTotal [35mWHERE[m [38;5;130mEXISTS[m ([38;5;130mSELECT[m * [35mFROM[m RankTopTwo [35mWHERE[m RankTopTwo.Rank == RankWithTotal.Rann[3;1Hk);[37;1H[94m@                                                                                                          [38;1H@                                                                                                          [m[39;90H[K[39;90H78,2[10C93%[1;2H[?12l[?25h[?25l[1;38r[1;1H[14L[1;39r[1;1H[38;5;130mINSERT[m [35mINTO[m RankTopOne(Rank, Car_Make,Car_ID,Total_Score)[38;5;130mSELECT[m Rank, Car_Make,Car_ID,Total_Score [35mFROM[m Rankk[2;1HWithTotal [35mGROUP[m [35mBY[m Car_Make;
+
+[38;5;130mDELETE[m [35mFROM[m RankWithTotal [35mWHERE[m [38;5;130mEXISTS[m ([38;5;130mSELECT[m * [35mFROM[m RankTopOne [35mWHERE[m RankTopOne.Rank == RankWithTotal.Rann[5;1Hk);
+
+[38;5;130mCREATE[m [35mTABLE[m RankTopTwo(
+   ...> Rank int,
+   ...> Car_Make text,
+   ...> Car_ID int,
+   ...> Total_Score int);
+
+[38;5;130mINSERT[m [35mINTO[m RankTopTwo(Rank, Car_Make,Car_ID,Total_Score)[38;5;130mSELECT[m MIN(Rank), Car_Make,Car_ID,Total_Score [35mFROMM[m[14;1H RankWithTotal [35mGROUP[m [35mBY[m Car_Make [35mORDER[m [35mBY[m Rank;[39;90H[K[39;90H67,31[9C79%[1;31H[?12l[?25h[?25l[1;38r[1;1H[L[1;39r[39;90H[K[39;90H66,1[10C78%[1;1H[?12l[?25h[?25l[1;38r[1;1H[15L[1;39r[2;2H[38;5;130mCREATE[m [35mTABLE[m RankWithTotal(
+   ...> Rank int,
+   ...> Car_Make text,
+   ...> Car_ID int,
+   ...> Total_Score int);
+
+[38;5;130mINSERT[m [35mINTO[m RankWithTotal(Rank, Car_Make,Car_ID,Total_Score) [38;5;130mSELECT[m Rank.Ranking,Rank.Car_Make,Rank.Car_ID,,[9;1HCar_Rank.Car_Total [35mFROM[m Rank,Car_Rank [35mWHERE[m Rank.Car_ID = Car_Rank.Car_ID;
+
+[38;5;130mCREATE[m [35mTABLE[m RankTopOne(
+   ...> Rank int,
+   ...> Car_Make text,
+   ...> Car_ID int,
+   ...> Total_Score int);[39;90H[K[39;90H52,1[10C62%[1;1H[?12l[?25h[?25l[1;38r[1;1H[15L[1;39r[2;1H[38;5;130mCREATE[m [35mTABLE[m Rank(
+   ...> Car_Rank int,
+   ...> Car_ID int,
+   ...> Car_Year int,
+   ...> Car_Make text,
+   ...> Car_Model text);
+
+[38;5;130mINSERT[m [35mINTO[m Rank(Ranking, Car_ID,Year,Car_Make,Car_Model) [38;5;130mSELECT[m [32mrowid[m, Car_ID,Car_Year,Car_Make,Car_Model  [10;1H[35mFROM[m Car_Rank;
+
+.[35mmode[m csv
+.output extract1.csv
+[38;5;130mSELECT[m * [35mFROM[m Rank;[39;90H[K[39;90H38,1[10C45%[1;1H[?12l[?25h[?25l[1;38r[1;1H[3L[1;39r[2;1H[38;5;130mINSERT[m [35mINTO[m Car_Rank(Car_ID,Car_Year,Car_Make, Car_Model,Car_Total) [38;5;130mSELECT[m Car_ID,Car_Year,Car_Make,Car_Modd[3;1Hel,Car_Total [35mFROM[m Car_Total [35mORDER[m [35mBY[m Car_Total [35mDESC[m;[38;1H[94m@                                                                                                          [m[39;90H[K[39;90H36,1[10C42%[1;1H[?12l[?25h[?25l[1;38r[1;1H[L[1;39r[1;4H...> Car_Rank int);[39;90H[K[39;90H35,23[9C41%[1;23H[?12l[?25h[?25l[1;38r[1;1H[5L[1;39r[1;4H...> Car_ID int,
+   ...> Car_Year int,
+   ...> Car_Make text,
+   ...> Car_Model text,
+   ...> Car_Total int,[39;90H[K[39;90H30,20[9C36%[1;20H[?12l[?25h[?25l[1;38r[1;1H[L[1;39r[1;1H[38;5;130mCREATE[m [35mTABLE[m Car_Rank([39;90H[K[39;90H29,23[9C35%[1;22H[106m([7;21H)[1;23H[?12l[?25h[?25l[1;38r[m[1;1H[9L[1;39r[1;4H...> Car_ID int,
+   ...> Car_Year int,
+   ...> Car_Make text,
+   ...> Car_Model text,
+   ...> Car_Total int);
+
+[38;5;130mINSERT[m [35mINTO[m Car_Total [38;5;130mSELECT[m Cars.Car_ID, Cars.Car_Year, Cars.Car_Make,Cars.Car_Model, Car_Score.Car_Score  [8;1H[35mFROM[m Cars, Car_Score [35mWHERE[m Cars.Car_ID = Car_Score.Car_ID;[39;90H[K[39;90H21,20[9C25%[10;22H([16;21H)[1;20H[?12l[?25h[?25l[1;38r[1;1H[3L[1;39r[1;1H.import \carsTable.csv Cars
+
+[38;5;130mCREATE[m [35mTABLE[m Car_Total([39;90H[K[39;90H18,23[9C21%[1;23H[?12l[?25h[?25l[1;38r[1;1H[12L[1;39r[1;1H[38;5;130mCREATE[m [35mTABLE[m Car_Score
+   ...> Car_ID int primary key,
+   ...> Car_Score int);
+ .import \Car_Score.csv Car_Score;
+
+[38;5;130mCREATE[m [35mTABLE[m Cars(
+   ...> Car_ID int primary key,
+   ...> Car_Year int,
+   ...> Car_Make text,
+   ...> Car_Model text,
+   ...> Owner_Name text,
+   ...> Owner_Email text);[39;90H[K[39;90H6,23[11C6%[1;23H[?12l[?25h[?25l[1;38r[1;1H[2L[1;39r[1;1H.import \judgesTable.csv judges;[39;90H[K[39;90H4,23[11C3%[1;23H[?12l[?25h[?25l[1;38r[1;1H[3L[1;39r[1;1H[38;5;130mCREATE[m [35mTABLE[m judges(
+   ...> Judge_ID text,
+   ...> Judge_Name text);[38;1H[94m@                                                                                                          [m[39;90H[K[39;90H1,21[10CTop[1;20H[106m([3;24H)[1;21H[?12l[?25h[?25l[m([3;24H)[39;90H2[2;21H[?12l[?25h[?25l[39;90H3[3;21H[?12l[?25h[?25l[39;90H4[4;21H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H4,22[10CTop[4;22H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H4,23[10CTop[4;23H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H4,24[10CTop[4;24H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H4,25[10CTop[4;25H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H4,26[10CTop[4;26H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H4,27[10CTop[4;27H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H4,28[10CTop[4;28H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H4,29[10CTop[4;29H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H4,30[10CTop[4;30H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H4,31[10CTop[4;31H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H4,32[10CTop[4;32H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H4,33[10CTop[4;33H[?12l[?25h[?25l[4;32H[K[39;93H2[4;32H[?12l[?25h[?25l[39;90H5,1 [5;1H[?12l[?25h[?25l[39;90H6,23[6;23H[?12l[?25h[?25l[39;90H7,32[7;32H[?12l[?25h[?25l[39;90H8,24[8;24H[?12l[?25h[?25l[39;90H9,32[9;32H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H9,33[10CTop[9;33H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H9,34[10CTop[9;34H[?12l[?25h[?25l[39;1H[K[39;1H=sqlcomplete#DrillIntoTable()[1m-- INSERT --[m[39;13H[K[39;90H9,35[10CTop[9;35H[?12l[?25h[?25l[9;34H[K[39;93H4[9;34H[?12l[?25h[?25l[39;90H10,1[10;1H[?12l[?25h[?25l[11;18H[106m([17;25H)[m[39;91H1,19[11;19H[?12l[?25h[?25l([17;25H)[39;91H2[12;19H[?12l[?25h[?25l[39;91H3[13;19H[?12l[?25h[?25l[39;91H4[14;19H[?12l[?25h[?25l[39;91H5[15;19H[?12l[?25h[?25l[39;91H6[16;19H[?12l[?25h[?25l[39;91H7[17;19H[?12l[?25h[?25l[39;91H8[18;19H[?12l[?25h[?25l[39;91H9,1 [19;1H[?12l[?25h[?25l[39;90H20,19[20;19H[?12l[?25h[?25l[39;91H1[21;19H[?12l[?25h[?25l[39;91H2[22;19H[?12l[?25h[?25l[39;91H3[23;19H[?12l[?25h[?25l[39;91H4[24;19H[?12l[?25h[?25l[39;91H5[25;19H[?12l[?25h[?25l[39;91H6,1 [26;1H[?12l[?25h[?25l[39;91H7,19[27;19H[?12l[?25h[?25l[39;91H8,1 [29;1H[?12l[?25h[?25l[39;91H9,19[30;19H[?12l[?25h[?25l[39;90H30[31;19H[?12l[?25h[?25l[39;91H1[32;19H[?12l[?25h[?25l[39;91H2[33;19H[?12l[?25h[?25l[39;91H3[34;19H[?12l[?25h[?25l[39;91H4[35;19H[?12l[?25h[?25l[39;91H5[36;19H[?12l[?25h[?25l[39;91H6,1 [37;1H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[37;1H[38;5;130mINSERT[m [35mINTO[m Car_Rank(Car_ID,Car_Year,Car_Make, Car_Model,Car_Total) [38;5;130mSELECT[m Car_ID,Car_Year,Car_Make,Car_Modd[38;1Hel,Car_Total [35mFROM[m Car_Total [35mORDER[m [35mBY[m Car_Total [35mDESC[m;[39;90H[K[39;90H37,19[10C1%[37;19H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[39;90H[K[39;90H38,1[11C2%[38;1H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;1H[38;5;130mCREATE[m [35mTABLE[m Rank([39;90H[K[39;90H39,19[10C3%[38;19H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;4H...> Car_Rank int,[39;90H[K[39;90H40,19[10C5%[38;19H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;4H...> Car_ID int,[39;90H[K[39;90H41,19[10C6%[38;19H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;4H...> Car_Year int,[39;90H[K[39;90H42,19[10C7%[38;19H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;4H...> Car_Make text,[39;90H[K[39;90H43,19[10C8%[38;19H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;4H...> Car_Model text);[39;90H[K[39;90H44,19[9C10%[38;19H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[39;90H[K[39;90H45,1[10C11%[38;1H[?12l[?25h[?25l[1;38r[1;1H[2M[1;39r[37;1H[38;5;130mINSERT[m [35mINTO[m Rank(Ranking, Car_ID,Year,Car_Make,Car_Model) [38;5;130mSELECT[m [32mrowid[m, Car_ID,Car_Year,Car_Make,Car_Model  [38;1H[35mFROM[m Car_Rank;[39;90H[K[39;90H46,19[9C13%[37;19H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[39;90H[K[39;90H47,1[10C15%[38;1H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;1H.[35mmode[m csv[39;90H[K[39;90H48,10[9C16%[38;10H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;1H.output extract1.csv[39;90H[K[39;90H49,19[9C17%[38;19H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;1H[38;5;130mSELECT[m * [35mFR

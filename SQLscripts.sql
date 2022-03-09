@@ -1,12 +1,12 @@
 CREATE TABLE judges(
    ...> Judge_ID text,
    ...> Judge_Name text);
-.import \judgesTable.csv judges;
+.import \judgesTable.csv judges
 
 CREATE TABLE Car_Score
    ...> Car_ID int primary key,
    ...> Car_Score int);
- .import \Car_Score.csv Car_Score;
+ .import \Car_Score.csv Car_Score
 
 CREATE TABLE Cars(
    ...> Car_ID int primary key,
@@ -99,6 +99,17 @@ INSERT INTO TopThree_Car(Rank, Car_Make,Car_ID,Total_Score) SELECT * FROM RankTo
 .output extract2.csv
 SELECT * FROM TopThree_Car;
 
+CREATE TABLE newJudges_Table(
+   ...> Judge_ID text,
+   ...> Judge_Name text,
+   ...> NumberOfCar int,
+   ...> Start_Time datetime,
+   ...> End_Time datetime,
+   ...> Duration int,
+   ...> Average_speed int);
 
+INSERT INTO newJudges_Table(Judge_ID, Judge_Name, NumberOfCar,Start_Time,End_Time,Duration,Average_speed) SELECT Judge_ID, Judge_Name, COUNT(Timestamp), MIN(Timestamp), MAX(Timestamp), CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) ,CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT) / COUNT(Timestamp) FROM judges_Table GROUP BY Judge_ID;
 
-
+.mode csv
+.output extract3.csv
+SELECT * FROM newJudges_Table;
