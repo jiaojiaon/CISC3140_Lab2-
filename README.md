@@ -35,6 +35,12 @@ o An ‘average’ speed score that is a calculated as duration divided by numbe
 
 4. In [SQLscripts.sql](SQLscripts.sql), your above work should be saved in *.sql file(s) and saved to your Git project repository. 
 
+
+5. Provide a data dictionary for your final set of tables. This is a description of your table (or database) schema. Please name this file [data_dictonary.md](data_dictonary.md) and use markdown formatting to format it. 
+
+6.Capture [text-based file(s)](history_log.txt) that contains a log of your terminal session (use the script command).
+
+
 # Installation
 
 Run using the command ```make lab2```
@@ -49,5 +55,5 @@ Run using the command ```make lab2```
 1. Sign up for a GitHub account if you don't have one. Set up your SSH keys with github.
 2. Clone this repository `git clone git@github.com:jiaojiaon/CISC3140_Lab2-.git` to your machine to get a copy.
 3. Move into the project's root directory with `cd CISC3140_Lab2-` 
-4. Open SQLscripts.sql to follow the steps to create tables
+4. Open SQLscripts.sql and follow the steps to create tables
 
