@@ -1,4 +1,3 @@
-
 --Part 1
 DROP TABLE IF EXISTS judges;
 DROP TABLE IF EXISTS Car_Score;
@@ -11,13 +10,15 @@ CREATE TABLE judges(
     Timestamp datetime,
     Judge_ID text,
     Judge_Name text);
+.mode csv
 .import \judgesTable.csv judges
 DELETE FROM judges WHERE Judge_ID = 'Judge_ID';
 
-CREATE TABLE Car_Score
-    Car_ID int primary key,
-    Car_Score int);
- .import \Car_Score.csv Car_Score
+CREATE TABLE Car_Score(
+   Car_ID int primary key,
+   Car_Score int);
+.mode csv
+.import \Car_Score.csv Car_Score
 DELETE FROM Car_Score WHERE Car_ID = 'Car_ID';
 
 CREATE TABLE Cars(
@@ -27,6 +28,7 @@ CREATE TABLE Cars(
     Car_Model text,
     Owner_Name text,
     Owner_Email text);
+.mode csv
 .import \carsTable.csv Cars
 DELETE FROM Cars WHERE Car_ID = 'Car_ID';
 
@@ -61,7 +63,7 @@ CREATE TABLE Rank(
     Car_Make text,
     Car_Model text);
 
-INSERT INTO Rank(Ranking, Car_ID,Year,Car_Make,Car_Model) SELECT rowid, Car_ID,Car_Year,Car_Make,Car_Model FROM Car_Rank;
+INSERT INTO Rank(Car_Rank, Car_ID,Car_Year,Car_Make,Car_Model) SELECT rowid, Car_ID,Car_Year,Car_Make,Car_Model FROM Car_Rank;
 
 .header on
 .mode csv
@@ -82,7 +84,7 @@ DROP TABLE IF EXISTS TopThree_Car;
     Car_ID int,
     Total_Score int);
 
-INSERT INTO RankWithTotal(Rank, Car_Make,Car_ID,Total_Score) SELECT Rank.Ranking,Rank.Car_Make,Rank.Car_ID,Car_Rank.Car_Total FROM Rank,Car_Rank WHERE Rank.Car_ID = Car_Rank.Car_ID;
+INSERT INTO RankWithTotal(Rank, Car_Make,Car_ID,Total_Score) SELECT Rank.Car_Rank,Rank.Car_Make,Rank.Car_ID,Car_Rank.Car_Total FROM Rank,Car_Rank WHERE Rank.Car_ID = Car_Rank.Car_ID;
 
 CREATE TABLE RankTopOne(
     Rank int,
@@ -130,7 +132,7 @@ SELECT * FROM TopThree_Car;
 
 DROP TABLE IF EXISTS newJudges_Table;
 
-UPDATE judges_Table SET Timestamp = SUBSTR(Timestamp, 5, 4) || "-0" || SUBSTR(Timestamp, 1,1) || "-0" || SUBSTR(Timestamp, 3, 1) || " " || SUBSTR(Timestamp, 10, 2) || ":" || SUBSTR(Timestamp, 13, 2)
+UPDATE judges SET Timestamp = SUBSTR(Timestamp, 5, 4) || "-0" || SUBSTR(Timestamp, 1,1) || "-0" || SUBSTR(Timestamp, 3, 1) || " " || SUBSTR(Timestamp, 10, 2) || ":" || SUBSTR(Timestamp, 13, 2);
 
 CREATE TABLE newJudges_Table(
     Judge_ID text,
@@ -141,7 +143,7 @@ CREATE TABLE newJudges_Table(
     Duration int,
     Average_speed int);
 
-INSERT INTO newJudges_Table(Judge_ID, Judge_Name, NumberOfCar,Start_Time,End_Time,Duration,Average_speed) SELECT Judge_ID, Judge_Name, COUNT(Timestamp), MIN(Timestamp), MAX(Timestamp), CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) ,CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT) / COUNT(Timestamp) FROM judges_Table GROUP BY Judge_ID;
+INSERT INTO newJudges_Table(Judge_ID, Judge_Name, NumberOfCar,Start_Time,End_Time,Duration,Average_speed) SELECT Judge_ID, Judge_Name, COUNT(Timestamp), MIN(Timestamp), MAX(Timestamp), CAST((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24 AS INT) ,CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*24*60) AS INT) / COUNT(Timestamp) FROM judges GROUP BY Judge_ID;
 
 .header on
 .mode csv

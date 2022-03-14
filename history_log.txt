@@ -1916,4 +1916,158 @@ commit c24acdc9611c06bbc620795039aa3020089740c9[m
 [1;39r[39;90H[K[39;90H55,1[10C16%[38;1H[?12l[?25h[?25l[1;38r[1;1H[4M[1;39r[35;1H[38;5;130mCREATE[m [35mTABLE[m Rank(
     Car_Rank int,
     Car_ID int,
-    Car_Year int,[39;90H[K[39;90H59,4[10C20%[38;4H[?12l[?25h[?25l[1;38r[1;1H[3M[1;39r[36;5HCar_Make text
+    Car_Year int,[39;90H[K[39;90H59,4[10C20%[38;4H[?12l[?25h[?25l[1;38r[1;1H[3M[1;39r[36;5HCar_Make text,
+    Car_Model text);[39;90H[K[39;90H62,1[10C23%[38;1H[?12l[?25h[?25l[1;38r[1;1H[2M[1;39r[37;1H[38;5;130mINSERT[m [35mINTO[m Rank(Ranking, Car_ID,Year,Car_Make,Car_Model) [38;5;130mSELECT[m [32mrowid[m, Car_ID,Car_Year,Car_Make,Car_Model  [38;1H[35mFROM[m Car_Rank;[1;38r[38;1H
+[1;39r[39;90H[K[39;90H64,1[10C25%[38;1H[?12l[?25h[?25l[1;38r[1;1H[3M[1;39r[36;1H.header [35mon[m
+.[35mmode[m csv
+.output extract1.csv[39;90H[K[39;90H67,4[10C28%[38;4H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;1H[38;5;130mSELECT[m * [35mFROM[m Rank;[39;90H[K[39;90H68,4[10C29%[38;4H[?12l[?25h[?25l[1;38r[1;1H[8M[1;39r[32;1H[34m--Part 2.2[m
+
+[38;5;130mDROP[m [35mTABLE[m [35mIF[m [38;5;130mEXISTS[m RankWithTotal;
+[38;5;130mDROP[m [35mTABLE[m [35mIF[m [38;5;130mEXISTS[m RankTopOne;
+[38;5;130mDROP[m [35mTABLE[m [35mIF[m [38;5;130mEXISTS[m RankTopTwo;
+[38;5;130mDROP[m [35mTABLE[m [35mIF[m [38;5;130mEXISTS[m RankTopThree;
+[38;5;130mDROP[m [35mTABLE[m [35mIF[m [38;5;130mEXISTS[m TopThree_Car;[39;90H[K[39;90H76,4[10C36%[38;4H[?12l[?25h[?25l[1;38r[1;1H[9M[1;39r[31;2H[38;5;130mCREATE[m [35mTABLE[m RankWithTotal(
+    Rank int,
+    Car_Make text,
+    Car_ID int,
+    Total_Score int);
+
+[38;5;130mINSERT[m [35mINTO[m RankWithTotal(Rank, Car_Make,Car_ID,Total_Score) [38;5;130mSELECT[m Rank.Ranking,Rank.Car_Make,Rank.Car_ID,,[38;1HCar_Rank.Car_Total [35mFROM[m Rank,Car_Rank [35mWHERE[m Rank.Car_ID = Car_Rank.Car_ID;[39;90H[K[39;90H84,4[10C43%[37;4H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[39;90H[K[39;90H85,1[10C44%[38;1H[?12l[?25h[?25l[1;38r[1;1H[2M[1;39r[37;1H[38;5;130mCREATE[m [35mTABLE[m RankTopOne(
+    Rank int,[39;90H[K[39;90H87,4[10C46%[38;4H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;5HCar_Make text,[39;90H[K[39;90H88,4[10C46%[38;4H[?12l[?25h[?25l[1;38r[1;1H[12M[1;39r[27;5HCar_ID int,
+    Total_Score int);
+
+[38;5;130mINSERT[m [35mINTO[m RankTopOne(Rank, Car_Make,Car_ID,Total_Score)[38;5;130mSELECT[m Rank, Car_Make,Car_ID,Total_Score [35mFROM[m Rankk[31;1HWithTotal [35mGROUP[m [35mBY[m Car_Make;
+
+[38;5;130mDELETE[m [35mFROM[m RankWithTotal [35mWHERE[m [38;5;130mEXISTS[m ([38;5;130mSELECT[m * [35mFROM[m RankTopOne [35mWHERE[m RankTopOne.Rank == RankWithTotal.Rann[34;1Hk);
+
+[38;5;130mCREATE[m [35mTABLE[m RankTopTwo(
+    Rank int,
+    Car_Make text,[39;90H[K[39;90H98,4[10C55%[38;4H[?12l[?25h[?25l[1;38r[1;1H[12M[1;39r[27;5HCar_ID int,
+    Total_Score int);
+
+[38;5;130mINSERT[m [35mINTO[m RankTopTwo(Rank, Car_Make,Car_ID,Total_Score)[38;5;130mSELECT[m MIN(Rank), Car_Make,Car_ID,Total_Score [35mFROMM[m[31;1H RankWithTotal [35mGROUP[m [35mBY[m Car_Make [35mORDER[m [35mBY[m Rank;
+
+[38;5;130mDELETE[m [35mFROM[m RankWithTotal [35mWHERE[m [38;5;130mEXISTS[m ([38;5;130mSELECT[m * [35mFROM[m RankTopTwo [35mWHERE[m RankTopTwo.Rank == RankWithTotal.Rann[34;1Hk);
+
+[38;5;130mCREATE[m [35mTABLE[m RankTopThree(
+    Rank int,
+    Car_Make text,[39;90H[K[39;90H108,4[9C65%[38;4H[?12l[?25h[?25l[1;38r[1;1H[11M[1;39r[28;5HCar_ID int,
+    Total_Score int);
+
+[38;5;130mINSERT[m [35mINTO[m RankTopThree(Rank, Car_Make,Car_ID,Total_Score)[38;5;130mSELECT[m MIN(Rank), Car_Make,Car_ID,Total_Score [35mFRR[32;1HOM[m RankWithTotal [35mGROUP[m [35mBY[m Car_Make [35mORDER[m [35mBY[m Rank;
+
+
+[38;5;130mCREATE[m [35mTABLE[m TopThree_Car(
+    Rank int,
+    Car_Make text,
+    Car_ID int,[39;90H[K[39;90H118,4[9C73%[38;4H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;5HTotal_Score int);[39;90H[K[39;90H119,4[9C74%[38;4H[1;38r[1;1H[10M[1;39r[30;1H[38;5;130mINSERT[m [35mINTO[m TopThree_Car(Rank, Car_Make,Car_ID,Total_Score) [38;5;130mSELECT[m * [35mFROM[m RankTopOne [38;5;130mUNION[m [38;5;130mSELECT[m * [35mFROM[m Raa[31;1HnkTopTwo [38;5;130mUNION[m [38;5;130mSELECT[m * [35mFROM[m RankTopThree [35mORDER[m [35mBY[m Car_Make, rank;
+
+.header [35mon[m
+.[35mmode[m csv
+.output extract2.csv
+[38;5;130mSELECT[m * [35mFROM[m TopThree_Car;
+
+[34m--Part 3[m[39;90H[K[39;90H127,1[9C82%[37;1H[?12l[?25h[?25l[39;92H8,4[38;4H[?12l[?25h[?25l[1;38r[1;1H[9M[1;39r[31;1H[38;5;130mDROP[m [35mTABLE[m [35mIF[m [38;5;130mEXISTS[m newJudges_Table;
+
+[38;5;130mUPDATE[m judges_Table [38;5;130mSET[m Timestamp = SUBSTR(Timestamp, [31m5[m, [31m4[m) || [31m"-0"[m || SUBSTR(Timestamp, [31m1[m,[31m1[m) || [31m"-0"[m || SUU[34;1HBSTR(Timestamp, [31m3[m, [31m1[m) || [31m" "[m || SUBSTR(Timestamp, [31m10[m, [31m2[m) || [31m":"[m || SUBSTR(Timestamp, [31m13[m, [31m2[m)
+
+[38;5;130mCREATE[m [35mTABLE[m newJudges_Table(
+    Judge_ID text,
+    Judge_Name text,[39;90H[K[39;90H136,4[9C89%[38;4H[?12l[?25h[?25l[1;38r[1;1H[10M[1;39r[29;5HNumberOfCar int,
+    Start_Time datetime,
+    End_Time datetime,
+    Duration int,
+    Average_speed int);
+
+[38;5;130mINSERT[m [35mINTO[m newJudges_Table(Judge_ID, Judge_Name, NumberOfCar,Start_Time,End_Time,Duration,Average_speed) [38;5;130mSS[36;1HELECT[m Judge_ID, Judge_Name, COUNT(Timestamp), MIN(Timestamp), MAX(Timestamp), CAST((JULIANDAY(MAX(Timestampp[37;1H)) - JULIANDAY(MIN(Timestamp)))*[31m24[m [35mAS[m INT) ,CAST(((JULIANDAY(MAX(Timestamp)) - JULIANDAY(MIN(Timestamp)))*[31m22[38;1H4[m*[31m60[m) [35mAS[m INT) / COUNT(Timestamp) [35mFROM[m judges_Table [35mGROUP[m [35mBY[m Judge_ID;[1;38r[1;1H[2M[1;39r[38;1H.header [35mon[m[39;90H[K[39;90H144,1[9C97%[37;1H[?12l[?25h[?25l[1;38r[38;1H
+[1;39r[38;1H.[35mmode[m csv[39;90H[K[39;90H146,4[9C98%[38;4H[1;38r[1;1H[2M[1;39r[37;1H.output extract3.csv
+[38;5;130mSELECT[m * [35mFROM[m newJudges_Table;[39;90H[K[39;90H148,4[9CBot[38;4H[?12l[?25h[39;1H[K[?25l[39;90H148,3[9CBot[38;3H[?12l[?25h[?25l[39;90H[K[39;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"SQLscripts.sql" 148L, 4179C written
+[?1l>[?12l[?25h[?1049l]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ git add --all
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ git commit 0m "[K[K[K[K[K-m "update sql file"
+git: 'commit-m' is not a git command. See 'git --help'.
+
+Did you mean this?
+	commit-tree
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ git commit-m "update sql file"[1@ 
+git: 'commi' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+	commit
+	column
+	config
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ git commi t-m "update sql file"[Kgit commi t-m "update sql file"[1P[C[1@ 
+[main 87b9930] update sql file
+ 2 files changed, 700 insertions(+), 54 deletions(-)
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ git commit -m "update sql file" t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+To git@github.com:jiaojiaon/CISC3140_Lab2-.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'git@github.com:jiaojiaon/CISC3140_Lab2-.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ git pull
+remote: Enumerating objects: 12, done.[K
+remote: Counting objects:   8% (1/12)[Kremote: Counting objects:  16% (2/12)[Kremote: Counting objects:  25% (3/12)[Kremote: Counting objects:  33% (4/12)[Kremote: Counting objects:  41% (5/12)[Kremote: Counting objects:  50% (6/12)[Kremote: Counting objects:  58% (7/12)[Kremote: Counting objects:  66% (8/12)[Kremote: Counting objects:  75% (9/12)[Kremote: Counting objects:  83% (10/12)[Kremote: Counting objects:  91% (11/12)[Kremote: Counting objects: 100% (12/12)[Kremote: Counting objects: 100% (12/12), done.[K
+remote: Compressing objects:  11% (1/9)[Kremote: Compressing objects:  22% (2/9)[Kremote: Compressing objects:  33% (3/9)[Kremote: Compressing objects:  44% (4/9)[Kremote: Compressing objects:  55% (5/9)[Kremote: Compressing objects:  66% (6/9)[Kremote: Compressing objects:  77% (7/9)[Kremote: Compressing objects:  88% (8/9)[Kremote: Compressing objects: 100% (9/9)[Kremote: Compressing objects: 100% (9/9), done.[K
+remote: Total 9 (delta 6), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  11% (1/9)   Unpacking objects:  22% (2/9)   Unpacking objects:  33% (3/9)   Unpacking objects:  44% (4/9)   Unpacking objects:  55% (5/9)   Unpacking objects:  66% (6/9)   Unpacking objects:  77% (7/9)   Unpacking objects:  88% (8/9)   Unpacking objects: 100% (9/9)   Unpacking objects: 100% (9/9), done.
+From github.com:jiaojiaon/CISC3140_Lab2-
+   a6af180..2f761ec  main       -> origin/main
+[?1049h[?1h=[1;39r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[39;1H".git/MERGE_MSG" 7L, 296C[1;1HMerge branch 'main' of github.com:jiaojiaon/CISC3140_Lab2- into main
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+[94m~                                                                                                          [9;1H~                                                                                                          [10;1H~                                                                                                          [11;1H~                                                                                                          [12;1H~                                                                                                          [13;1H~                                                                                                          [14;1H~                                                                                                          [15;1H~                                                                                                          [16;1H~                                                                                                          [17;1H~                                                                                                          [18;1H~                                                                                                          [19;1H~                                                                                                          [20;1H~                                                                                                          [21;1H~                                                                                                          [22;1H~                                                                                                          [23;1H~                                                                                                          [24;1H~                                                                                                          [25;1H~                                                                                                          [26;1H~                                                                                                          [27;1H~                                                                                                          [28;1H~                                                                                                          [29;1H~                                                                                                          [30;1H~                                                                                                          [31;1H~                                                                                                          [32;1H~                                                                                                          [33;1H~                                                                                                          [34;1H~                                                                                                          [35;1H~                                                                                                          [36;1H~                                                                                                          [37;1H~                                                                                                          [38;1H~                                                                                                          [1;1H[?12l[?25h[?25l[m[39;1H[K[39;1H:[?12l[?25hwq[?25l".git/MERGE_MSG" 7L, 296C written
+[?1l>[?12l[?25h[?1049lMerge made by the 'recursive' strategy.
+ README.md         | 8 +++++++-
+ data_dictonary.md | 4 ++--
+ 2 files changed, 9 insertions(+), 3 deletions(-)
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 10, done.
+Delta compression using up to 8 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 21.32 KiB | 0 bytes/s, done.
+Total 6 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 3 local objects.[K
+To git@github.com:jiaojiaon/CISC3140_Lab2-.git
+   2f761ec..b6127a9  main -> main
+]0;Jiaojiao.Ding72@sol25:~/CISC3140_Lab2-[Jiaojiao.Ding72@sol25 CISC3140_Lab2-]$ exit
+
+Script done on Wed 09 Mar 2022 01:29:38 AM EST
