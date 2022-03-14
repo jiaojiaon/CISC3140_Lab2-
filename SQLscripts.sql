@@ -1,4 +1,3 @@
-sqlite3 Lab2DB.db
 
 --Part 1
 DROP TABLE IF EXISTS judges;
@@ -9,15 +8,17 @@ DROP TABLE IF EXISTS Cars;
 .mode csv
 
 CREATE TABLE judges(
+    Timestamp datetime,
     Judge_ID text,
     Judge_Name text);
-
 .import \judgesTable.csv judges
+DELETE FROM judges WHERE Judge_ID = 'Judge_ID';
 
 CREATE TABLE Car_Score
     Car_ID int primary key,
     Car_Score int);
  .import \Car_Score.csv Car_Score
+DELETE FROM Car_Score WHERE Car_ID = 'Car_ID';
 
 CREATE TABLE Cars(
     Car_ID int primary key,
@@ -27,7 +28,7 @@ CREATE TABLE Cars(
     Owner_Name text,
     Owner_Email text);
 .import \carsTable.csv Cars
-
+DELETE FROM Cars WHERE Car_ID = 'Car_ID';
 
 --Part 2
 DROP TABLE IF EXISTS Car_Total;
